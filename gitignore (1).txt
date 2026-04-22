@@ -1,0 +1,15 @@
+# Do not commit API keys or local config overrides
+config.local.php
+.env
+.env.local
+
+# Uploaded 3D files (optional: remove if you want to track them)
+uploads/3d/*
+!uploads/3d/.htaccess
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea
+.vscode
+*.log
